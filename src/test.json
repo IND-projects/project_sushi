@@ -1,8 +1,56 @@
 [
-  {"weight": "200", "name": "Filadelphia", "cost": "250", "url": "https://media.istockphoto.com/id/1302598144/photo/philadelphia-sushi-roll-served-on-black-ceramic-plate.jpg?s=612x612&w=0&k=20&c=cZh4t1AF86udAXTTt1FGmykUa2ta_QCeEfbVeDHvcLI="},
-  {"weight": "150", "name": "Kalifornia", "cost": "200", "url": "https://media.istockphoto.com/id/115547349/photo/california-roll.jpg?s=612x612&w=0&k=20&c=cMqL7kKiMZdfRYe0HLhpo9IptPSTeULGgYj7PQzUo28="},
-  {"weight": "150", "name": "Kalifornia", "cost": "200", "url": "https://media.istockphoto.com/id/115547349/photo/california-roll.jpg?s=612x612&w=0&k=20&c=cMqL7kKiMZdfRYe0HLhpo9IptPSTeULGgYj7PQzUo28="},
-  {"weight": "150", "name": "Kalifornia", "cost": "200", "url": "https://media.istockphoto.com/id/115547349/photo/california-roll.jpg?s=612x612&w=0&k=20&c=cMqL7kKiMZdfRYe0HLhpo9IptPSTeULGgYj7PQzUo28="},
-  {"weight": "150", "name": "Kalifornia", "cost": "200", "url": "https://media.istockphoto.com/id/115547349/photo/california-roll.jpg?s=612x612&w=0&k=20&c=cMqL7kKiMZdfRYe0HLhpo9IptPSTeULGgYj7PQzUo28="},
-  {"weight": "350", "name": "Dragons", "cost": "400", "url": "https://media.istockphoto.com/id/1162840170/photo/green-dragon-sushi-roll-with-eel-and-avocado.jpg?s=612x612&w=0&k=20&c=TZ5vuvKLuX6bLoAHSUlrnfNTp3SYRW8R1hIetGWrBr4="}
+  {
+    "Id": "1", 
+    "Name": "Filadelphia", 
+    "Composition": "Souse, fish, rice",
+    "Weight": "200", 
+    "Price": "250", 
+    "ImageId": "https://media.istockphoto.com/id/1302598144/photo/philadelphia-sushi-roll-served-on-black-ceramic-plate.jpg?s=612x612&w=0&k=20&c=cZh4t1AF86udAXTTt1FGmykUa2ta_QCeEfbVeDHvcLI=",
+    "CategoryId": "1"
+  },
+  {
+    "Id": "2", 
+    "Name": "Kalifornia", 
+    "Composition": "Souse, fish, rice",
+    "Weight": "150", 
+    "Price": "200", 
+    "ImageId": "https://media.istockphoto.com/id/115547349/photo/california-roll.jpg?s=612x612&w=0&k=20&c=cMqL7kKiMZdfRYe0HLhpo9IptPSTeULGgYj7PQzUo28=",
+    "CategoryId": "1"
+  },
+  {
+    "Id": "3", 
+    "Name": "Kalifornia", 
+    "Composition": "Souse, fish, rice",
+    "Weight": "150", 
+    "Price": "200", 
+    "ImageId": "https://media.istockphoto.com/id/115547349/photo/california-roll.jpg?s=612x612&w=0&k=20&c=cMqL7kKiMZdfRYe0HLhpo9IptPSTeULGgYj7PQzUo28=",
+    "CategoryId": "2"
+  },
+  {
+    "Id": "4", 
+    "Name": "Kalifornia", 
+    "Composition": "Souse, fish, rice",
+    "Weight": "150", 
+    "Price": "200", 
+    "ImageId": "https://media.istockphoto.com/id/115547349/photo/california-roll.jpg?s=612x612&w=0&k=20&c=cMqL7kKiMZdfRYe0HLhpo9IptPSTeULGgYj7PQzUo28=",
+    "CategoryId": "3"
+  },
+  {
+    "Id": "5", 
+    "Name": "Kalifornia", 
+    "Composition": "Souse, fish, rice",
+    "Weight": "150", 
+    "Price": "200", 
+    "ImageId": "https://media.istockphoto.com/id/115547349/photo/california-roll.jpg?s=612x612&w=0&k=20&c=cMqL7kKiMZdfRYe0HLhpo9IptPSTeULGgYj7PQzUo28=",
+    "CategoryId": "3"
+  },
+  {
+    "Id": "6", 
+    "Name": "Dragons", 
+    "Composition": "Souse, fish, rice",
+    "Weight": "350", 
+    "Price": "400", 
+    "ImageId": "https://media.istockphoto.com/id/1162840170/photo/green-dragon-sushi-roll-with-eel-and-avocado.jpg?s=612x612&w=0&k=20&c=TZ5vuvKLuX6bLoAHSUlrnfNTp3SYRW8R1hIetGWrBr4=",
+    "CategoryId": "3"
+  }
 ]

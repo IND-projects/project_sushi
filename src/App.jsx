@@ -5,10 +5,8 @@ import './App.scss';
 // import { DataReseive } from './DataReceive/DataReceive';
 import SushisFromServer from './test.json' //DataReseive 
 
-// export sushi = axios.create(url); //5001
-// const array = sushi.get(breakpoint)
-
 export const App = () => {
+
   return (
     <div className='bg-secondary-subtle'>
       <div className="header text-center">
@@ -21,7 +19,8 @@ export const App = () => {
       </div>
       <div className="container-lg text-center mt-1">
         <p className='title mb-0 text-dark'>Our catalog</p>
-        <SushiList sushis={SushisFromServer} />
+        <SushiList sushis={SushisFromServer} /> 
+        {/* DataReseive */}
       </div>
     </div>
   );
@@ -29,17 +28,3 @@ export const App = () => {
 
 
 
-// <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
