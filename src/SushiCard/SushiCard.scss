@@ -1,0 +1,21 @@
+// .sushiCard {
+//   background-color: lightgreen;
+//   font-style: italic;
+// }
+
+// .img {
+//   max-height: 225.33px;
+// }
+
+.sushiCard {
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(105%);
+  }
+}
+
+.card-img {
+  width: 100%;
+  height: 55%;
+}
