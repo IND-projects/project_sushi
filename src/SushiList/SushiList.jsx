@@ -6,7 +6,7 @@ export const SushiList = ({ sushis }) => (
   <div className='row g-4 justify-content-center'>
     {
       sushis.map(sushi => (
-        <SushiCard sushi={sushi} key={sushi.Id} />
+        <SushiCard sushi={sushi} key={sushi.id} />
       ))
     }
   </div>

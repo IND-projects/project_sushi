@@ -1,9 +1,21 @@
-import axios from 'axios'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
-const data = axios.create({
-  baseURL: 'https://localhost:7247'
-});
+export const DataReseive = () => {
+  const [sushiData, setSushiData] = useState([]);
 
-export const DataReseive = data
-  .get('/Home/GetRolls')
-  .then((response) => response.data);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('https://localhost:7247/Home/GetRolls');
+        setSushiData(response.data);
+      } catch (error) {
+        console.error('Ошибка при получении данных:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  return sushiData;
+};
